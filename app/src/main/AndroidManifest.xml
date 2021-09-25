@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".acercade"
+            android:exported="true" />
+        <activity
             android:name=".consulta_recyclerView"
             android:exported="true" />
         <activity android:name=".DetallesArticulos" />
