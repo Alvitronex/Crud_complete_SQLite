@@ -29,7 +29,9 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Mario xd          Github: ---:"
+            android:text="Mario Enrique Rodas Alvarado
+
+            Github: Alvitronex"
             android:textSize="20dp"
             android:layout_marginLeft="25dp"
             android:layout_marginTop="25dp"/>
@@ -46,7 +48,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Erick Adonay  Github: Adonay-Flores
+            android:text="Erick Adonay              Github: Adonay-Flores
                           Fernandez Flores"
             android:textSize="20dp"
             android:layout_marginLeft="25dp"
@@ -55,7 +57,8 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Noel Antonio       Github: rivera-77
+            android:text="Noel Antonio
+            Github: rivera-77
                           Martinez Rivera"
             android:textSize="20dp"
             android:layout_marginLeft="25dp"
@@ -64,14 +67,24 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Angel Daniel       Github: ---
-                          Valle"
+            android:text="Angel Daniel Valle Pineda
+
+
+
+            Github: ValleAD"
             android:textSize="20dp"
             android:layout_marginLeft="25dp"
             android:layout_marginTop="25dp"/>
 
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:onClick="regresar"/>
 
-            />
+
+        />
 
     </LinearLayout>
 

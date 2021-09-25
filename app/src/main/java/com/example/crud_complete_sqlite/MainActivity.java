@@ -336,6 +336,10 @@ public class MainActivity extends AppCompatActivity {
             }
         }
     }
+    public void back(View view) {
+        Intent i = new Intent(this, acercade.class);
+        startActivity(i);
+    }
 
 
     public void modificacion( View view) {
@@ -366,5 +370,6 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
+
 
 }

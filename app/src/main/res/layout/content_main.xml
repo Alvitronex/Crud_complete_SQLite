@@ -40,10 +40,6 @@
                 android:inputType="number"
                 android:textColor="#fff"
                 android:background="@drawable/estiloet2"
-                android:shadowColor="#7C6969"
-                android:shadowDx="-8"
-                android:shadowDy="-9"
-                android:shadowRadius="5"
                 android:paddingLeft="25dp"
                 android:drawableStart="@drawable/ic_hola"
                 android:drawablePadding="5dp"
@@ -169,6 +165,21 @@
                 android:text="Editar"
                 android:textColor="#fff"
                 android:onClick="modificacion"
+                android:background="@drawable/estiloboton"
+
+
+                />
+            <Button
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="20dp"
+                android:text="ACERCA DE"
+                android:textColor="#fff"
+                android:onClick="back"
                 android:background="@drawable/estiloboton"
 
 
