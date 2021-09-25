@@ -24,7 +24,8 @@
         android:layout_marginLeft="12dp"
         android:layout_marginRight="12dp"
         android:layout_marginTop="55dp"
-
+        android:background="@drawable/estiloedittext"
+        android:drawableStart="@drawable/ic_llave"
         android:drawablePadding="5dp"
         android:hint="Ingrese el código"
         android:inputType="number"
@@ -38,7 +39,7 @@
         android:layout_marginTop="140dp"
         android:text="Buscar"
         android:textColor="#fff"
-
+        android:background="@drawable/estiloboton"
         android:shadowColor="#2314A8"
         android:shadowDx="-3"
         android:shadowDy="0"
@@ -63,7 +64,7 @@
             android:text="X"
             android:textAlignment="center"
             android:textSize="20dp"
-
+            android:background="@drawable/circulo1"
             android:layout_marginRight="10dp"
             />
     </LinearLayout>
